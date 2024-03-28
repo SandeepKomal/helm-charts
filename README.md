@@ -14,9 +14,26 @@ helm create helmchartname
 ```
 tree helmchartname
 ```
+
 or 
 
 ```
 use ls 
 ```
+```
+helm template demohelm 
+```
+```
+helm lint demohelm
+```
+```
+helm install k8stohelm demohelm
+```
+```
+helm rollback release_name revsion_number chart_name
+```
+```
+helm upgrade release_name --install chart_name --set image.tag=tag_name
+```
+
 
